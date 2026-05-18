@@ -49,3 +49,7 @@ for(auto it=st.begin();it!=st.end();it++){
 }
 
 }
+
+
+
+# Here used vector<vector<int>> as while inserting in set TC was O(logn) which leads to O(n^2logn) but without set it is o(n^2) only.
